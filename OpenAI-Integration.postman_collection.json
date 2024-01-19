@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "235453d5-1c26-4255-b667-c098ae7dcb6a",
+		"name": "OpenAI-Integration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11235604"
+	},
+	"item": [
+		{
+			"name": "GenerateText",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"prompt\":\"How can I make a tea?\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8005/v1/openAI",
+					"host": [
+						"localhost"
+					],
+					"port": "8005",
+					"path": [
+						"v1",
+						"openAI"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
