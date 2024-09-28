@@ -4,7 +4,7 @@ This repository demonstrates the integration of **OpenAI’s** web API for gener
 
 ## What will you need
 
-- Clone this repository: <a target="_blank" href="https://github.com/rajneshwarsingh/OpenAI-Integration">OpenAI-Integratio</a>
+- Clone this repository: <a target="_blank" href="https://github.com/rajneshwarsingh/OpenAI-Integration">OpenAI-Integration</a>
 - An IDE or text editor like VS Code.
 - Install Node.js (version 20.12.1 or higher).
 - Use a package manager such as NPM or Yarn.
